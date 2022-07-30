@@ -7,7 +7,9 @@
 
 ## 💻 **Projeto Final - Mentorando**
 <br>
- API desenvolvida como Projeto Final com o auxílio da professora Hannah Freitas para a conclusão do curso de Backend  [{Reprograma}](https://reprograma.com.br/)
+
+ <p align ="justify"> API desenvolvida como Projeto Final com o auxílio da professora Hannah Freitas para a conclusão do curso de Backend {Reprograma}.
+
 
 
 <p align ="justify"> Este projeto nasceu a partir da importancia e do impacto que vi que as mentorias que foram fornecidas ao longo do curso, teve em mim e em minhas colegas, ouvir trajetorias e dicas sempre nos dava um gás e uma motivação a mais, principalmente nos momentos complicados onde parecia que o conteúdo parecia impossivel de ser absorvido, percebi que se outras pessoas, tanto as que estão em inicio de carreira, como aquelas que estão em transição de carreira pudesse ter contato com alguem da area que almeja entrar, conseguiria ter uma dimensão melhor de como é o trajeto, saber um pouco sobre o dia-a-dia... entre tantas outras dúvidas que permeiam a escolha de uma profissão.
@@ -34,6 +36,7 @@
 
 
 ## ⚙️ Funcionalidades/Objetivos
+
 
 - Listar todos os mentores que estão cadastradas no sistema;
 - Listar os mentores por ID.
