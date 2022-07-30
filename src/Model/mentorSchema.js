@@ -23,10 +23,6 @@ const mentorSchema = new mongoose.Schema({
     linkedin:{
         type: String,
         required:true
-    },
-    createdAt: {
-        type: Date,
-        default: Date.now
     }
 });
 

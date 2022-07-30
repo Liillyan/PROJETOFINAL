@@ -5,13 +5,11 @@ const createMentor = async (req, res) =>{
     try {
        //const {mentor, subject , district, email, whatsapp, specialty} = req.body;
          const newMentor = new MentorSchema({
-              mentor: req.body.teacher,
-              subject: req.body.subject,
-              district: req.body.district,
-              email: req.body.email,
-              whatsapp: req.body.whatsapp,
-              specialty: req.body.specialty,
-              createdAt: new Date()
+            mentor: req.body.mentor,
+            profissão: req.body.profissão,
+            email: req.body.email,
+            whatsapp: req.body.whatsapp,
+            linkedin: req.body.linkedin,
          });
 
         const savedMentor = await newMentor.save();
@@ -29,8 +27,8 @@ const createMentor = async (req, res) =>{
 
 const getAll = async (req,res) =>{
     try {
-        const allMentorr = await mentorSchema.find();
-        res.status(200).send(allmentor);
+        const allMentor = await MentorSchema.find();
+        res.status(200).send(allMentor);
     } catch (error) {
         console.error(error)
     };
@@ -39,7 +37,7 @@ const getAll = async (req,res) =>{
 
 const updateMentor = async (req, res) => {
     try {
-        const findMentor= await mentorrSchema.findById(req.params.id)
+        const findMentor= await MentorSchema.findById(req.params.id)
         console.log("Mentora localizada", findMentor);
 
         if(!findMentor){
@@ -59,7 +57,7 @@ const updateMentor = async (req, res) => {
         // envio a resposta
         res.status(200).send({
             "message": "Mentora atualizada com sucesso",
-            savedMentorTeacher
+            savedMentor
         })
 
     } catch(err) {
@@ -76,7 +74,7 @@ const deleteMentor = async (req,res) => {
         // deletar esse documento
         // await findNote.delete()
 
-        const deletedMentor = await mentorSchema.findByIdAndDelete(req.params.id)
+        const deletedMentor = await MentorSchema.findByIdAndDelete(req.params.id)
 
         res.status(200).send({
             "message": "Mentora deletada com sucesso",
