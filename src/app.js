@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
     res.status(200).send({
         title: "Reprograma -> Mentorando - Projeto Final",
         version: "1.0.0",
-        mensagem: "Olá, ser humano do outro lado da tela, bem vindo ao meu projeto final!!"
+        mensagem: "Olá Pessoas! sejam Bem vindas ao meu projeto final!!"
     })
 })
 
