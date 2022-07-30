@@ -7,11 +7,7 @@ const mentorSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    subject:{
-        type: String,
-        required: true
-    },
-    district:{
+    profissão:{
         type: String,
         required: true
     },
@@ -24,7 +20,7 @@ const mentorSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    specialty:{
+    linkedin:{
         type: String,
         required:true
     },
