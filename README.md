@@ -9,20 +9,29 @@
 <br>
  API desenvolvida como Projeto Final com o auxílio da professora Hannah Freitas para a conclusão do curso de Backend  [{Reprograma}](https://reprograma.com.br/)
 
+
 <p align ="justify"> Este projeto nasceu a partir da importancia e do impacto que vi que as mentorias que foram fornecidas ao longo do curso, teve em mim e em minhas colegas, ouvir trajetorias e dicas sempre nos dava um gás e uma motivação a mais, principalmente nos momentos complicados onde parecia que o conteúdo parecia impossivel de ser absorvido, percebi que se outras pessoas, tanto as que estão em inicio de carreira, como aquelas que estão em transição de carreira pudesse ter contato com alguem da area que almeja entrar, conseguiria ter uma dimensão melhor de como é o trajeto, saber um pouco sobre o dia-a-dia... entre tantas outras dúvidas que permeiam a escolha de uma profissão.
+
 
  <p align="justify"> Acreditando que há pessoas que se disponibilizariam a ajudar, o objetivo principal da construção dessa API, é conectar pessoas interessadas em ser mentoradas sobre a profissão desejada, com profissionais que têm a possibilidade e disponibiidade de mentorar, doando seu tempo e experiência. 
 
-<br>
-## 🚀 Descrição da API Mentorando
 
 <br>
+
+
+## 🚀 Descrição da API Mentorando
+
+
+<br>
+
 
 <p align="justify">O projeto é uma API REST que permite que pessoas com conhecimento em determinada área, que se disponibiizem a doar um pouco de seu conhecimento e tempo sejam voluntárias e, consigam se cadastrar, descrevendo informações sobre área de atuação, disponibilidade, de forma objetiva, para que haja a conexão com os participantes dessa iniciativa que estejam procurando mais conhecimento sobre a área desejada, onde irá conter um cadastro para os mentores no qual disponibilizará o meio de comunicação melhor para que o mentorado o localize e entre em contato, conseguindo acesso as informações de quem está cadastrado no sistema.
 
 <p align="justify">A interface é um CRUD completo integrado com o banco de dados, onde é possível listar todos os mentores, tendo as opções de cadastrar novos usuários, atualizar os dados e deletar o cadastro do usuário. 
 
+
 <br>
+
 
 ## ⚙️ Funcionalidades/Objetivos
 
@@ -37,7 +46,8 @@
 
 O projeto final consiste em uma API fundamentada no CRUD, que são:  CREATE (CRIAR), READ(LER-CONSULTA), UPDATE(ATUALIZAR) e DELETE(DESTRUIÇÃO). 
 
-<br
+<br>
+
 ## 🛠️ Tecnologias utilizadas nesse projeto
 
 <br>

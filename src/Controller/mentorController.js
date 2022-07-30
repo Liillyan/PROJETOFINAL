@@ -1,4 +1,4 @@
-const mentorSchema = require("../Model/mentorSchema");
+const MentorSchema = require("../Model/mentorSchema");
 
 
 const createMentor = async (req, res) =>{
